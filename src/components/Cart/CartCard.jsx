@@ -15,7 +15,7 @@ const CartCard = ({ item }) => {
   const handleRemoveItemQtyFromCart = (item, quantity) => {
     dispatch(cartActions.removeItemQtyFromCart(item, quantity));
   };
-  return (
+  return ( 
     <div className="flex items-center  gap-x-[10px] p-[10px] border-b-[2px] ">
       <img src={item.img} alt="image" className="w-[75px] h-[75px]" />
       <div className="flex">
